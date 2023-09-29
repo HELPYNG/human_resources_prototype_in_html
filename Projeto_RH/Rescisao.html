@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de RH - Área de Rescisão</title>
+    <link rel="icon" type="image/x-icon" href="https://marsemfim.com.br/wp-content/uploads/2019/01/pesca.jpg.webp">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body_Recisao">
+    <div>
+        <h1>Área de Rescisão</h1>
+        <nav>
+            <a href="Home.html" class="menucaixa">Home</a>
+            <a href="Calculosalario.html" class="menucaixa">Cálculo de Salário Líquido</a>
+            <a href="Ferias.html" class="menucaixa">Férias</a>
+        </nav><br><br>
+
+        <p><b>Digite o Salário Bruto recebido e o valor das férias</b></p>
+        <input type="number" id="salariobruto" name="salariobruto" placeholder="0000,00" class="menucaixa2"><br><br>
+
+        <input type="number" id="ferias" name="ferias" placeholder="Valor das Férias" class="menucaixa2"><br><br>
+
+        <input type="number" id="diasTrabalhados" name="diasTrabalhados" placeholder="Dias Trabalhados no Último Mês" class="menucaixa2"><br><br>
+        
+        <input type="number" id="ferias" name="ferias" placeholder="Valor das Férias" class="menucaixa2"><br><br>
+
+        <p><b>Resultado da Rescisão:</b></p>
+
+        <p id="resultadoRescisao" class="menucaixa2"></p>
+
+        <button onclick="CalcularRescisao()">
+            <span>Calcular Rescisão</span>
+        </button>
+        
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
+

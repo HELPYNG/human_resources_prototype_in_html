@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de RH</title>
+    <link rel="icon" type="image/x-icon" href="https://marsemfim.com.br/wp-content/uploads/2019/01/pesca.jpg.webp">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body_Ferias">
+    <div>
+
+        <nav>
+            <a href="Home.html" class="menucaixa"><b>Home</b></a>
+            <a href="Rescisao.html" class="menucaixa"><b>Recisão</b></a>
+            <a href="Calculosalario.html" class="menucaixa"><b>Cálculo de Salário Líquido</b></a>
+        </nav><br><br>
+
+        <h1>Cálculo de Férias</h1>
+        <label for="salariobruto">Salário Bruto:</label>
+        <input type="number" id="salariobruto" name="salariobruto" placeholder="Digite o salário bruto" class="menucaixa2"><br><br>
+
+        <label for="diasferias">Número de Dias de Férias:</label>
+        <input type="number" id="diasferias" name="diasferias" placeholder="Digite o número de dias de férias" class="menucaixa2"><br><br>
+
+        <button onclick="calcularFerias()">
+            Calcular Férias
+        </button>
+
+        <p>Valor das Férias: <span id="resultadoFerias" class="menucaixa2"></span></p>
+        
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>

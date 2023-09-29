@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de RH</title>
+    <link rel="icon" type="image/x-icon" href="https://marsemfim.com.br/wp-content/uploads/2019/01/pesca.jpg.webp">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body_Calculosalario">
+    <div>
+        <h1>Calcule o Seu Salário Líquido Aqui</h1>
+
+        <nav>
+            <a href="Home.html" class="menucaixa"><b>Home</b></a>
+            <a href="Rescisao.html" class="menucaixa"><b>Recisão</b></a>
+            <a href="Ferias.html" class="menucaixa"><b>Férias</b></a>
+        </nav><br><br>
+
+        <p><b>Digite o Salário Bruto recebido e o número de dependentes</b></p>
+        <input type="number" id="salariobruto" name="salariobruto" placeholder="0000,00" class="menucaixa2"><br><br>
+        <input type="number" id="Dependente" name="Dependente" placeholder="00" class="menucaixa2"><br><br>
+        <p id="resultado" name="resultado" class="menucaixa2"></p>
+
+        <button onclick="CalcularSalario()">
+            <span>Calcular</span>
+        </button>
+        
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
